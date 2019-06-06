@@ -1,9 +1,8 @@
 class Post
-  attr_accessor :author, :title
+  attr_accessor :title, :author
 
 end
 
-title = Post.new()
 
 class Author
   attr_accessor :name
